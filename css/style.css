@@ -29,6 +29,12 @@ a {
   color: inherit;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
 button {
   background-color: transparent;
   padding: 0;
@@ -161,8 +167,42 @@ body {
   margin-bottom: 25px;
 }
 
-.concept-img {
+/* .concept-img {
   display: block;
   max-width: 100%;
   object-fit: cover;
+} */
+
+.premier {
+  margin-bottom: 150px;
+}
+
+.premier-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.premier-content-text:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.premier-img {
+  margin-bottom: 20px;
+}
+
+.premier-btn {
+  display: block;
+  text-align: center;
+  width: 100%;
+  font-family: 'Corporate A', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #f402a2;
+  text-transform: uppercase;
+  padding: 14px;
+  border: 1px solid #f402a2;
+  background-color: rgba(196, 196, 196, 0);
 }
