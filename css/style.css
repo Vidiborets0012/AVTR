@@ -216,3 +216,46 @@ body {
   color: #53a1cb;
   border: 1px solid #53a1cb;
 }
+
+.video {
+  margin-bottom: 150px;
+}
+
+.video-img {
+  margin-bottom: 25px;
+}
+
+.video-btn {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 9px;
+  width: 100%;
+  font-family: 'Corporate A', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #f402a2;
+  text-transform: uppercase;
+  padding: 14px;
+  border: 1px solid #f402a2;
+  background-color: rgba(196, 196, 196, 0);
+  transition: all 0.5s;
+}
+
+.video-btn span {
+  padding-top: 2px;
+}
+
+.video-btn path {
+  transition: all 0.5s;
+}
+
+.video-btn:hover {
+  color: #53a1cb;
+  border: 1px solid #53a1cb;
+}
+
+.video-btn:hover path {
+  fill: #53a1cb;
+}
