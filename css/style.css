@@ -184,6 +184,10 @@ body {
   gap: 60px;
 }
 
+.premier-content {
+  max-width: 570px;
+}
+
 .premier-content-text:not(:last-child) {
   margin-bottom: 15px;
 }
@@ -205,4 +209,10 @@ body {
   padding: 14px;
   border: 1px solid #f402a2;
   background-color: rgba(196, 196, 196, 0);
+  transition: all 0.5s;
+}
+
+.premier-btn:hover {
+  color: #53a1cb;
+  border: 1px solid #53a1cb;
 }
