@@ -346,6 +346,12 @@ body {
   height: 300px;
 }
 
+@media screen and (max-width: 1366px) {
+  .footer-inner {
+    height: 150px;
+  }
+}
+
 @media screen and (max-width: 1020px) {
   .design-interior {
     display: block;
@@ -431,6 +437,19 @@ body {
   }
 }
 
+@media screen and (max-width: 620px) {
+  .footer-inner {
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+  .footer .social-list {
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+  }
+}
+
 @media screen and (max-width: 520px) {
   .header-top {
     flex-wrap: wrap;
@@ -440,7 +459,6 @@ body {
   .social-list {
     width: 100%;
     justify-content: center;
-    padding-top: 10px;
   }
 
   .header-title {
@@ -449,6 +467,11 @@ body {
 
   .header-content {
     background-position: center right -544px;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    padding-top: 10px;
   }
 }
 
