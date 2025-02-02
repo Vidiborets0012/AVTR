@@ -299,10 +299,6 @@ body {
   margin: 0 30px;
 }
 
-.slick-track {
-  margin-left: -90px;
-}
-
 .arrow {
   position: absolute;
   z-index: 10;
