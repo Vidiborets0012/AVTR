@@ -315,6 +315,23 @@ body {
   transform: translateX(30px);
 }
 
+.design-box {
+  max-width: 590px;
+  margin: 150px auto;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.design-box-column {
+  width: 255px;
+}
+
+.design-box-text {
+  margin-bottom: 15px;
+}
+
 /* ************************* */
 .footer {
   background-color: #070a1b;
